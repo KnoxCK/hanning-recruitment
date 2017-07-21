@@ -1,4 +1,49 @@
-/* -------------------------------------
- * CSS code specific to home page
- * (margin/padding adjustments)
- * ------------------------------------- */
+.wrapper {
+	background-position: cover;
+	height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1.5px solid #FFEC3B;
+}
+.hanning-recruitment-box {	
+	img {
+		width: 30em;
+		padding: 10px 0;
+	}
+	p {
+		color: #AFABA9;
+		letter-spacing: 1px;
+		font-weight: lighter;
+		margin-bottom: 0;
+	}
+	a {
+		color: #AFABA9;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #CCC9C8;
+	}
+}
+@media only screen and (max-width:650px){
+	.hanning-recruitment-box {
+		img {
+			width: 25em;
+			padding: 5px 0;
+		}
+	}
+}
+@media only screen and (max-width:490px){
+	.hanning-recruitment-box {
+		padding: 0;
+		img {
+			width: 20em;
+			padding: 2.5px 0;
+		}
+	}
+}
+
+
+
+
